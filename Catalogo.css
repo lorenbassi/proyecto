@@ -1,0 +1,156 @@
+:root{
+    --pink:#eab454;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    background-image: url("PicsArt_05-01-04.30.36.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    color:#eab454;
+    padding: 20px;
+    margin: 30px;
+    background: none
+
+}
+
+.heading span{
+    color:var(--pink);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#eab454;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn:hover{
+    background:var(--pink);
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:#262c2c;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+    font-size: 40px;
+    color:rgb(163, 73, 73);
+    font-weight: bolder;
+    background: none;
+}
+
+header .logo span{
+    color:var(--pink);
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#e8e4e3
+;
+    background: #262c2c ;
+}
+
+
+header .navbar a:hover{
+    color:var(--pink);
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color:#e8e4e3;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color:var(--pink);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#333;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+header .menu{
+    position: relative;
+    display: inline-block;
+}
+
+header .submenu{
+    position: absolute;
+    background: #262c2c;
+}
+  /* Estilo A */
+  .estilo-a{
+    font-family: sans-serif;
+  }
+  .estilo-a a{
+    text-decoration: none;
+    color: black;
+  }
+  .estilo-a a:hover{
+    text-decoration: underline;
+  }
+  .estilo-a .img-container{
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+  }
+  .estilo-a .img-container img{
+    width: 100%;
+    position: absolute;
+    top: -25%;
+    transition: all 0.5s;
+  }
+  .estilo-a:hover .img-container img{
+    transform: scale(1.2);
+  }
+  
+ 
